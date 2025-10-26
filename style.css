@@ -1,0 +1,87 @@
+/* ================================
+   STYLE PREMIUM - GESTION D'ACTIFS
+   ================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    background-color: #0e0e0f !important;
+    color: #f5f5f5 !important;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #f0d58c !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stMetric {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px !important;
+    box-shadow: 0 0 12px rgba(240, 213, 140, 0.1);
+}
+
+section.main > div {
+    background: transparent !important;
+}
+
+/* Datatable */
+.dataframe {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+thead tr th {
+    background-color: #181818 !important;
+    color: #f0d58c !important;
+    font-weight: 600;
+    border-bottom: 1px solid #3a3a3a !important;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Plotly background */
+.js-plotly-plot .plotly {
+    background-color: transparent !important;
+}
+
+/* Metrics section titles */
+.block-container {
+    padding-top: 1.5rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #f0d58c, transparent);
+    margin: 2em 0;
+}
+
+/* Footer caption */
+footer, .stMarkdown {
+    color: #aaa !important;
+}
+
+/* Cards for sections */
+section[data-testid="stMarkdownContainer"] h3 {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-left: 4px solid #f0d58c;
+    padding-left: 10px;
+}
+
+/* Scrollbar custom */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #f0d58c;
+    border-radius: 10px;
+}
